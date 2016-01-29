@@ -52,7 +52,6 @@ void dot() {
 
 void dash() {
    
-  //delay(200);
   digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(400);              // wait for a second
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
