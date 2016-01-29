@@ -769,7 +769,8 @@ void loop()
       }
     }
   }
-
+ 
+ // MUSICAL ADDITIONS---------------------------------------------------------------
 
   int potValue = analogRead(A0);
   potValue = map(potValue, 0, 1024, 55, 110);
