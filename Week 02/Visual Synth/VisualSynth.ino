@@ -773,7 +773,7 @@ void loop()
  // MUSICAL ADDITIONS---------------------------------------------------------------
 
   int potValue = analogRead(A0);
-  potValue = map(potValue, 0, 1024, 55, 110);
+  potValue = map(potValue, 0, 1023, 55, 110);
   int pause = 2 * 1.30;
   tone(8, potValue, 500);
   delay(pause);
